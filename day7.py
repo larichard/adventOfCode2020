@@ -16,6 +16,7 @@ def shiny_gold_count(dict):
     print(bag_count - 1)
 
 #count # of bags in a bag
+#each bag = 1 for itself + each child * its num
 def count_bags(bag, dict):
     # add 1 to count each bag as it is processed
     bag_count = 1
